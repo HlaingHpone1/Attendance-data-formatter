@@ -88,7 +88,7 @@ const Index = () => {
       const cell = newRow[noIndex];
 
       if (typeof cell === "string") {
-        newRow[noIndex] = cell.replace(/^(100|200)/, "");
+        newRow[noIndex] = cell.replace(/^(1|2)/, "");
       }
 
       return newRow;
